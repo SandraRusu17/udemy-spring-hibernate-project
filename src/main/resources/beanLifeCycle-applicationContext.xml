@@ -17,11 +17,9 @@
     </bean>
 
     <bean id="myCoach"
-          class="com.luv2code.springdemo.TrackCoach"
+          class="com.luv2code.springdemo.TennisCoach"
             init-method="doMyStartupStuff"
-            destroy-method="doMyCleanupStuffYoYo">
-        <!-- setup constructor injection -->
-        <constructor-arg ref="myFortuneService"/>
+            destroy-method="doMyCleanupStuff">
     </bean>
 
 </beans>
