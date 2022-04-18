@@ -17,7 +17,7 @@ public class BeanScopeDemoApp {
         boolean result = (theCoach == alphaCoach);
 
         // print the result
-        System.out.println("\nPointing to the same object " + result);
+        System.out.println("\nPointing to the same object: " + result);
 
         System.out.println("\nMemory location for theCoach: " + theCoach);
 
